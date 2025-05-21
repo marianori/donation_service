@@ -21,7 +21,7 @@
         <p>
             Help us make a difference! Your donation supports our mission to provide food, shelter, and education to those in need.
         </p>
-        <a href="#XJKDHSTQ" style="display: none"></a>
+        <a href="#XJKDHSTQ" style="display: none" onclick="trackCheckout()"></a>
     </div>
     <!-- Fundraise Up: the new standard for online giving -->
 <script>(function(w,d,s,n,a){if(!w[n]){var l='call,catch,on,once,set,then,track'
@@ -32,5 +32,14 @@ t.parentNode.insertBefore(j,t);o.s=Date.now();o.v=4;o.h=w.location.href;o.l=[];
 for(i=0;i<7;i++)o[l[i]]=o(l[i]);w[n]=o}
 })(window,document,'script','FundraiseUp','AEMZUDUM');</script>
 <!-- End Fundraise Up -->
+ <script>
+  function trackCheckout() {
+    gtag('event', 'checkout_opened', {
+      event_category: 'engagement',
+      event_label: 'User clicked on donation checkout',
+      value: 1
+    });
+  }
+</script>
 </body>
 </html>
