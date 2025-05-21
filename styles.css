@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    background: #f7f7f7;
+}
+.container {
+    background: #fff;
+    display: inline-block;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+h1 {
+    color: #2d6a4f;
+}
+p {
+    color: #333;
+    margin-bottom: 30px;
+}
+.donate-btn {
+    background: #40916c;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.donate-btn:hover {
+    background: #2d6a4f;
+}
