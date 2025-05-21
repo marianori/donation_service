@@ -18,16 +18,3 @@ p {
     color: #333;
     margin-bottom: 30px;
 }
-.donate-btn {
-    background: #40916c;
-    color: #fff;
-    border: none;
-    padding: 15px 40px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-.donate-btn:hover {
-    background: #2d6a4f;
-}
